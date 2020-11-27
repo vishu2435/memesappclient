@@ -1,0 +1,12 @@
+.global{
+    display:flex;
+    width:80vw;
+    margin: auto;
+}
+
+@media(max-width:700px){
+    .global{
+        width: 100vw;
+    
+    }
+}

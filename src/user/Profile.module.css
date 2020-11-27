@@ -1,0 +1,64 @@
+.profile{
+    width: 60%;
+
+}
+.topBar{
+    width: 100%;
+    display: flex;
+    /* background-color: #777; */
+    color: black;
+    padding: 2%;
+    font-weight: 600;
+    justify-content: start;
+}
+.profilePicture{
+    background-color: grey;
+    height: 200px;
+    width: 100%;
+    position: relative;
+}
+.profilePicture .avatar{
+    position: absolute;
+    left:30px;
+    bottom: -75px;
+}
+.profilePicture .editButton{
+    width:130px !important;
+    position: absolute !important;
+    right: 20px !important;
+    bottom: -60px !important;
+    background-color: yellowgreen !important;
+    color: white !important;
+    border-style: none!important;
+    border: 2px solid white !important;
+    border-radius: 40px !important;
+    text-align: center !important;
+    box-sizing: border-box !important;
+}
+.profilePicture .editButton:hover{
+    background-color: rgba(153, 205, 50, 0.555) !important;
+}
+.about{
+    margin-top: 100px;
+    margin-left: 30px;
+
+}
+.about .about_userName{
+    font-weight: 600;
+    font-size: 24px;
+}
+.about .about_email{
+    /* font-weight: 600; */
+    font-size: 18px;
+}
+.about .about_createdAt{
+    /* font-weight: 600; */
+    font-size: 18px;
+    margin-top: 20px;
+}
+@media(max-width:700px){
+    .profile{
+        width: 100%;
+    
+    }
+}

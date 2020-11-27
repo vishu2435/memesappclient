@@ -1,0 +1,17 @@
+.page{
+    display: flex;
+    height: 100vh;
+}
+.page>div{
+    background: url('./o79EML.jpg');
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;   
+    
+    /* max-width: 50%; */
+}
+
+.page img{
+    width: 100%;
+    height: 100%;
+}

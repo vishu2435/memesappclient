@@ -1,0 +1,88 @@
+.memeit{
+    display: flex;
+    flex-direction: column;
+    color: yellowgreen;
+    /* position: sticky; */
+    /* top:0; */
+    background-color: white;
+    /* z-index: 100; */
+    padding-top: 20px;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+}
+.post_photo{
+    width:60%;
+}
+.post_photo>img{
+    border-radius: 20px;
+    width: 100%;
+    /* max-height: 500px; */
+}
+.memeit_avatar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+.memeit_profileName{
+    margin-left:20px ;
+    font-weight: 700;
+}
+.memeit_data{
+    width: 100%;
+
+}
+.memeit_data .textField{
+    width: 100% !important;
+    border-bottom: 0px !important;
+    color: yellowgreen;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    height: 50px;
+    padding: 5px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+.memeit_data .textField::placeholder{
+    color: yellowgreen;
+}
+.memeit_add_image{
+    width: 100%;
+}
+.addButton,.memeit_save_button{
+    width: fit-content;
+}
+.saveButton{
+    width:130px !important;
+    /* position: absolute !important; */
+    /* right: 20px !important; */
+    /* bottom: -60px !important; */
+    margin-top: 30px !important;
+    background-color: yellowgreen !important;
+    color: white !important;
+    border-style: none!important;
+    border: 2px solid white !important;
+    border-radius: 40px !important;
+    text-align: center !important;
+    box-sizing: border-box !important;
+}
+.saveButton:hover{
+    background-color: rgba(153, 205, 50, 0.555) !important;
+}
+@media(max-width:600px){
+    .memeit_data_wrapper{
+        display: flex;
+        align-items: center;
+    }
+    .memeit_data_wrapper >.memeit_data{
+        width: 80%;
+    }
+    .memeit_data_wrapper>.memeit_add_image{
+        width: 15%;
+    }
+
+
+}

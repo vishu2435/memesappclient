@@ -1,0 +1,38 @@
+.tagsComponent {
+    /* max-width: 600px; */
+    width: 100%;
+    border: 1px solid #eeeeee;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    cursor: text;
+    height: fit-content;
+    line-height: 22px;
+    vertical-align: middle;
+    padding: 10px;
+    border-radius: 3px;
+  }
+  
+  .tagsComponent input {
+    border: none;
+    outline: none;
+  }
+  .tag {
+    width: fit-content;
+    background: blue;
+    color: white;
+    margin-right: 8px;
+    margin-top: 5px;
+  }
+  .button {
+    border-radius: 30px;
+    margin-right: 8px;
+    margin-top: 5px;
+    height: 100%;
+    text-transform: lowercase;
+    font-size: 12px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  

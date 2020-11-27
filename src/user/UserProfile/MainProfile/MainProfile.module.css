@@ -1,0 +1,16 @@
+.mainprofile{
+    width: 60%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+@media(max-width:600px){
+    .mainprofile{
+    width: 90%;
+    }
+}
+@media(max-width:500px){
+    .mainprofile{
+    width: 99%;
+    padding: 10px;
+    }
+}

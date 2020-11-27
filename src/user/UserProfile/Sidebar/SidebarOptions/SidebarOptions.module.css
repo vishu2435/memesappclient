@@ -1,0 +1,26 @@
+.sidebaropt{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.sidebaropt .MuiSvgIcon-root{
+    padding: 20px;
+
+}
+.sidebaropt:hover{
+    background-color: var(--twitter-background);
+    border-radius: 30px;
+    color:white;
+    transition: color 100ms ease-out;
+}
+.sidebaropt__active{
+    color: white;
+    background-color: yellowgreen;
+    border-radius: 30px;
+    
+}
+.sidebaropt>h1{
+    font-weight: 800px;
+    font-size: 20px;
+    margin-right: 20px;
+}

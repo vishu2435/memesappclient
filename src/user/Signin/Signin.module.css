@@ -1,0 +1,34 @@
+.card{
+    width: 30vw !important;
+    margin: 20vh 10vh 20vh auto !important;
+    /* margin-top: 30vh; */
+    background-color: white !important;
+    /* text-align: c; */
+}
+.textField{
+    width: 100%;
+}
+.title{
+    font-size: 20px !important;
+}
+.submit{
+    background-color: yellowgreen !important;
+    color: yellow !important;
+    margin: auto !important;
+    width: 100% !important;
+}
+@media(max-width:1022px){
+    .card{
+        width: 60vw !important;
+    }        
+}
+@media(max-width:772px){
+    .card{
+        width: 80vw !important;
+    }        
+}
+@media(max-width:400px){
+    .card{
+        width: 95vw !important;
+    }        
+}

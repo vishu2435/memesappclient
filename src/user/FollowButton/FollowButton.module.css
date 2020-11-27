@@ -1,0 +1,16 @@
+.followButton{
+    width:130px !important;
+    position: absolute !important;
+    right: 20px !important;
+    bottom: -60px !important;
+    background-color: yellowgreen !important;
+    color: white !important;
+    border-style: none!important;
+    border: 2px solid white !important;
+    border-radius: 40px !important;
+    text-align: center !important;
+    box-sizing: border-box !important;
+}
+.followButton:hover{
+    background-color: rgba(153, 205, 50, 0.555) !important;
+}

@@ -1,0 +1,12 @@
+.mainArea{
+    width: 60%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+@media(max-width:700px){
+    .mainArea{
+        width: 90%;
+        padding: 30px;
+        margin: 0 auto;
+    }
+}

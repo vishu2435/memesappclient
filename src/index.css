@@ -1,4 +1,10 @@
+*{
+  margin:0;
+}
 body {
+  overflow-y: scroll;
+  --twitter-color:black;
+  --twitter-background:yellowgreen;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
